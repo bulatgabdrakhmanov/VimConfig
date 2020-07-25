@@ -28,6 +28,8 @@ Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
 " Plugin 'ascenator/L9', {'name': 'newL9'}
 
 Plugin 'flazz/vim-colorschemes'
+Plugin 'sheerun/vim-polyglot'
+Plugin 'townk/vim-autoclose'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -52,6 +54,7 @@ set expandtab "Ставим табы пробелами
 set softtabstop=4 "4 пробела в табе
 " Автоотступ
 set autoindent
+set smartindent
 " Подсвечиваем все что можно подсвечивать
 let python_highlight_all = 1
 " Включаем 256 цветов в терминале, мы ведь работаем из иксов?
